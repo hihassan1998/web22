@@ -3,7 +3,7 @@
 
 <!doctype html>
 <!-- Language spacifications for sweidhs webpage -->
-<html lang="sv">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -12,13 +12,9 @@
     <link rel="stylesheet" href="./public/css/style.css">
     <link rel="icon" href="../../public/img/hassan_faviconW.png" type="image/png">
     <title> Labb 2 | <?= $title ?></title>
-
-
 </head>
 <nav>
     Login In page
-
-
 </nav>
 
 <!-- Body elemts starts in header.php and ends in footer.php -->

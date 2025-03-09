@@ -16,7 +16,6 @@ body {
     min-height: 100vh;
 }
 
-
 /* Hamburger menu button */
 .menu-toggle {
     display: none;
@@ -54,8 +53,6 @@ nav ul li a {
     padding: 10px 20px;
     display: inline-block;
 }
-
-
 
 /* Mobile Styles for navbar */
 @media (max-width: 786px) {
@@ -157,18 +154,6 @@ form input::placeholder {
 }
 
 /* Style for the box containing the raw data */
-.print-r-box {
-    background-color: lightgray;
-    border: 2px solid #ddd;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 8px;
-    font-family: Consolas, monospace;
-    font-size: 16px;
-    color: #333;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-    white-space: pre-wrap;
-}
 
 .page-btn {
     padding-left: 90px;
@@ -197,12 +182,8 @@ pre {
     border: 2px solid #333;
 }
 
-.print-r-box code {
-    font-weight: bold;
-}
 
 /** Content stylings ends */
-
 
 
 /* footer stylings */
