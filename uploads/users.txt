@@ -1,1 +1,4 @@
 admin;$2y$10$.xplpGEVAjPUZ5TJTuQMAuzCmarC6RmMP.yJhW6A2teAw0kCFHbxW
+hassan;$2y$10$mO0eua80WLeubbkWuNA0FuQpLhb6ifxe3BsRoLVX61kNR0Cx4fX.W
+test;$2y$10$8mA9RyBZ16IjCYGYcdmXc.1eoOetfJ8jJqzGRcR79lfRcmWK1y5lW
+testson;$2y$10$.wTGOM/squG1pGRgDv37QOp3bfgRyfpIFcL7zkCs1Clvf0g6caHqy
