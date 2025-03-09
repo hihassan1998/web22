@@ -17,12 +17,10 @@ include './includes/header.php';
     <?php endif; ?>
     <!-- Post request form -->
     <form class="center-content" style="display:flex; flex-direction: column; align-items: center;" method="post">
-        <label for="">
             <h2>Log in and signup form</h2>
-        </label>
         <br>
-        <input type="text" name="username" placeholder="Användarnamn">
-        <input type="password" name="password" placeholder="Lösenord">
+        <input type="text" name="username" placeholder="Username">
+        <input type="password" name="password" placeholder="Password">
         <button type="submit" name="login">Log in</button>
         <button type="submit" name="register">Save new user</button>
     </form>

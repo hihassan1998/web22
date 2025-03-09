@@ -5,7 +5,7 @@ FROM php:8.3-apache
 WORKDIR /var/www/html
 
 # Ensure the uploads directory has the correct permissions
-RUN mkdir -p uploads && chmod 777 uploads
+RUN mkdir -p uploads && chown -R www-data:www-data uploads && chmod 777 uploads
 
 # Copy the application files to the web server directory
 COPY public /var/www/html/public
