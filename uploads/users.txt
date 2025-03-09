@@ -1,4 +1,0 @@
-hassan;$2y$10$VzMixO1ineuAam4ph1XsveUPD/lUKfMC92g6f9oy3YwDbhW/kCLBi
-admin;$2y$10$tAkKqbYe5S31.gZAnWSO2u6Sj/sK0dJ36QZKfi9WcAi2QLG.Dxuti
-admin1;$2y$10$6mp/b2mQ2ghC9HNK6hA/0egiwNEpTHziRM/O.CDVPVRAwP06idSBe
-test;$2y$10$FBKJRBJErkgejGcPAu4NUuXYoLKj9KZPQLVfKTeSaNRjPywVbYdz6

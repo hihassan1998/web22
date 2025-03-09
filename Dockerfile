@@ -4,8 +4,8 @@ FROM php:8.3-apache
 # Set the working directory to the web server's document root
 WORKDIR /var/www/html
 
-# Ensure the uploads directory has the correct permissions
-RUN mkdir -p uploads && chown -R www-data:www-data uploads && chmod 777 uploads
+#  Create an empty users.txt file if it doesn't exist and set permissions
+RUN touch /var/www/html/uploads/users.txt && chown www-data:www-data /var/www/html/uploads/users.txt && chmod 664 /var/www/html/uploads/users.txt
 
 # Copy the application files to the web server directory
 COPY public /var/www/html/public
