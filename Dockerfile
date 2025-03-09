@@ -5,7 +5,12 @@ FROM php:8.3-apache
 WORKDIR /var/www/html
 
 #  Create an empty users.txt file if it doesn't exist and set permissions
-RUN touch /var/www/html/uploads/users.txt && chown www-data:www-data /var/www/html/uploads/users.txt && chmod 664 /var/www/html/uploads/users.txt
+RUN mkdir -p /var/www/html/uploads && \
+    chown -R www-data:www-data /var/www/html/uploads && \
+    chmod 777 /var/www/html/uploads && \
+    touch /var/www/html/uploads/users.txt && \
+    chown www-data:www-data /var/www/html/uploads/users.txt && \
+    chmod 664 /var/www/html/uploads/users.txt
 
 # Copy the application files to the web server directory
 COPY public /var/www/html/public
